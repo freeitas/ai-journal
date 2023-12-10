@@ -3,10 +3,10 @@ import Link from 'next/link'
 
 const links = [
   { name: 'Journals', href: '/journal' },
-  { name: 'Settings', href: '/settings' },
+  { name: 'History', href: '/history' },
 ]
 
-const DashboardLayout = ({ children }) => {
+const DashboardLayout = ({ children }: any) => {
   return (
     <div className="w-screen h-screen relative">
       <aside className="absolute left-0 top-0 h-full w-[200px] border-r border-black/10">
